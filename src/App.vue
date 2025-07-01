@@ -60,7 +60,7 @@ section.FAQSection:first-of-type {
   flex-direction: column;
 }
 
-@media (min-width:768px) {
+@media (min-width>768px) {
   .FAQSections {
     margin-inline: 0;
   }
