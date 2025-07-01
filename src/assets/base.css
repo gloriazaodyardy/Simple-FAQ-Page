@@ -1,0 +1,26 @@
+/* FONTS AND COLOR PALLETE */
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../font/Inter-VariableFont_opsz\,wght.ttf') format('ttf');
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --white: #ffffff;
+  --gray-light: #f8fafc;
+  --gray-medium: #d2d5da;
+  --black-dark: #030616;
+  --blue-primary: #4e80ee;
+
+  --font-main: 'Inter', sans-serif;
+  --heading-xl-size: 2.25rem; /* 36px */
+  --heading-xl-weight: 600;
+
+  --heading-md-size: 1.5rem; /* 24px */
+  --heading-md-weight: 600;
+
+  --body-size: 1rem; /* 16px */
+  --body-weight: 400;
+}

@@ -1,0 +1,62 @@
+@import url(./base.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  line-height: 2;
+  min-height: 100dvh;
+  flex-direction: column;
+  font-family: var(--font-main);
+  color: var(--black-dark);
+  background-color: var(--white);
+}
+
+h1 {
+  font-size: var(--heading-xl-size);
+  font-weight: var(--heading-xl-weight);
+}
+h2 {
+  font-size: var(--heading-md-size);
+  font-weight: var(--heading-md-weight);
+}
+p,
+li,
+a {
+  font-size: var(--body-size);
+  font-weight: var(--body-weight);
+}
+a {
+  text-decoration: none;
+  color: var(--blue-primary);
+}
+ul,
+ol {
+  margin-left: 1.5rem;
+}
+.bg-white {
+  background-color: var(--white);
+}
+.bg-light {
+  background-color: var(--gray-light);
+}
+.flex {
+  display: flex;
+}
+
+header {
+  padding: 4rem 0;
+  text-align: center;
+}
+main {
+  flex: 1;
+  padding: 4rem 0;
+  flex-direction: column;
+  justify-content: center;
+}
+footer {
+  text-align: center;
+}
