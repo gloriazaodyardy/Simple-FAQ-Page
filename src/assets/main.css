@@ -48,14 +48,12 @@ ol {
 }
 
 header {
+  padding: 3.6rem 0;
   text-align: center;
-}
-header,
-main {
-  padding: 3.4rem 0;
 }
 main {
   flex: 1;
+  padding: 4rem 0;
   place-items: center;
   flex-direction: column;
 }
