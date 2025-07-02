@@ -43,7 +43,7 @@
 @import url(./assets/base.css);
 
 .FAQSections {
-  gap: 4rem;
+  gap: 1rem;
   max-width: 38rem;
   margin-inline: 1rem;
   flex-direction: column;
@@ -51,12 +51,12 @@
 }
 
 section.FAQSection:first-of-type {
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   border-bottom: 1px solid var(--gray-medium);
 }
 
 .FAQSection {
-  gap: 2rem;
+  gap: 1rem;
   flex-direction: column;
 }
 
